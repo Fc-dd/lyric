@@ -83,7 +83,6 @@ function setUloffset () {
   let offset = index * liHeight + liHeight / 2 - containerHeight / 2
   if (offset < 0) offset = 0
   if (offset > maxOffset)  offset = maxOffset
-  console.log(offset)
   doms.ul.style.transform = `translateY(-${offset}px)`
 
   // 给当前li加上active样式
